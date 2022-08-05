@@ -1,0 +1,113 @@
+body{ 
+    background-color: black;
+    color: white;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: grey;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px ;
+    padding-bottom: 100px;
+    padding-left: 150px;
+
+}
+.titulo-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-left: 150px;
+
+
+}
+.titulo{
+    font-family: Arial, sans-serif;
+}
+
+.perfis-container{
+    display: flex;
+    justify-content: center
+    
+}
+
+.perfis {
+    display: flex;
+    list-style: none;
+    display: flex;
+    width: 700px;
+}
+
+
+.usuario {
+width: 160px;
+padding: 15px;
+}
+
+.nome{
+    padding-left: 50px;
+}
+
+.imagens{
+    border-radius: 10px;
+    align-content: center;
+}
+
+.imagens:hover{
+    border: 1px white solid;
+    transform: scale(1.1);
+}
+
+
+.newuser{
+    width: 180px;
+    height: 150px;
+    background-color: rgb(17, 17, 17);
+    border: 1px solid;
+    padding-top: 10px ;
+    margin-top: 16px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.imagen-add{
+    padding: 40px 50px 30px 45px;
+}
+
+.newuser:hover{
+    background-color: rgb(104, 104, 104);
+    transform: scale(1.1);
+    border: 1px black;
+}
+
+
+.nome-add{
+    padding-top: 10px;
+    padding-left: 20px;
+
+}
+
+.container-botao{
+    display: flex;
+    justify-content: center;
+    padding: 115px;
+    padding-left: 270px;
+}
+
+.botao{
+   background-color: black;
+   color: white; 
+   border: 1px solid white;
+   padding: 15px 50px 15px 50px;
+   border-radius: 10px;
+   font-size: 20px;
+}
+.botao:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+}
